@@ -1,0 +1,58 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body {
+    font: normal 100% Helvetica, Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+#box {
+    position: relative;
+    width: 1920px;
+    height: 950px;
+    background-size: 100% 100%;
+    background: url("../images/bg36.jpg") no-repeat;
+}
+#wenzi1{
+    border: solid 1px rgba(111, 111, 111, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1024px;
+    background: url("../images/yinling.png");
+    background-size: cover;
+}
+
+#logo{
+    position:absolute;
+    left:80%;
+    top: 50px;
+    background: url("../images/nav-copy.png");
+    width: 200px;
+    height: 100px;
+}
+
+#tubiao{
+    background: url("../images/common.png");
+    width:240px;
+    height: 80px;
+    position: absolute;
+    top:900px;
+    left:540px;
+    margin: 0 0;
+    opacity: 0;
+    cursor: pointer;
+}
+#yz{
+    position: absolute;
+    left: 1920px;
+    top: 0;
+    background: url("../images/yezi.png");
+    width: 250px;
+    height: 191px;
+}
+
+
+

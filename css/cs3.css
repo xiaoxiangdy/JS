@@ -1,0 +1,40 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+.q{
+    position: absolute;
+    width: 100%;
+    background: url("../images/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#logo1{
+    position: absolute;
+    background: url("../images/f-spr.png");
+    width:682px;
+    height: 340px;
+    left: 33%;
+    top: 20%;
+}
+#logo2{
+    background: url("../images/f-spr.png") 0 -300px;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 10%;
+}
+#t2{
+    position: absolute;
+    top:0;
+    left: 0;
+    background: url("../images/bg-2.jpg");
+}
+#box{
+    width: 100%;
+}
+
+
+
